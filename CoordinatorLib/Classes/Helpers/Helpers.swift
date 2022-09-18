@@ -7,5 +7,5 @@
 
 import UIKit
 
-typealias CompletionBlock = () -> Void
-typealias RouterCompletions = [UIViewController : CompletionBlock]
+public typealias CompletionBlock = () -> Void
+public typealias RouterCompletions = [UIViewController : CompletionBlock]

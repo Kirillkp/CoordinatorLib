@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class Router: NSObject {
+open class Router: NSObject {
     
     // MARK:- Private variables
     fileprivate weak var rootController: UINavigationController?
@@ -19,13 +19,9 @@ final class Router: NSObject {
         completions = [:]
     }
     
-    var toPresent: UIViewController? {
+    public var toPresent: UIViewController? {
         return rootController
     }
-}
-
-// MARK: - Routable
-extension Router: Routable {
     
     public func present(_ module: Presentable?) {
         present(module, animated: true)
@@ -93,12 +89,8 @@ extension Router: Routable {
             }
         }
     }
-}
-
-// MARK:- Private methods
-private extension Router {
     
-    func runCompletion(for controller: UIViewController) {
+    private func runCompletion(for controller: UIViewController) {
         guard let completion = completions[controller] else { return }
         completion()
         completions.removeValue(forKey: controller)

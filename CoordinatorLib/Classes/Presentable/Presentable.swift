@@ -15,7 +15,7 @@ public protocol Presentable: AnyObject {
 // MARK: - Default implementation for UIViewController
 extension UIViewController: Presentable {
     
-    public var toPresent: UIViewController? {
+    open var toPresent: UIViewController? {
         return self
     }
 }

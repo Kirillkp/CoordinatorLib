@@ -1,0 +1,16 @@
+PODS:
+  - CoordinatorLib (0.1.0)
+
+DEPENDENCIES:
+  - CoordinatorLib (from `../`)
+
+EXTERNAL SOURCES:
+  CoordinatorLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoordinatorLib: 41b04c2bf62b35308fdfb6f43d239d72ad7de278
+
+PODFILE CHECKSUM: ff14ea0f6caf634f0ad3bd9a9c224f5617a7ee0a
+
+COCOAPODS: 1.11.3

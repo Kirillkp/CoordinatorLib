@@ -1,8 +1,8 @@
 {
   "name": "CoordinatorLib",
   "version": "0.1.0",
-  "summary": "A short description of CoordinatorLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A framework for performing navigation in iOS application.",
+  "description": "This CocoaPods library helps you performing navigation in iOS application.",
   "homepage": "https://github.com/Kirillkp/CoordinatorLib",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "CoordinatorLib/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "CoordinatorLib/Classes/**/*",
+  "swift_version": "5.0"
 }

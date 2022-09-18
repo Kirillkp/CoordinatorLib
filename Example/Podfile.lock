@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoordinatorLib: 41b04c2bf62b35308fdfb6f43d239d72ad7de278
+  CoordinatorLib: da88c5f0985c2dcbdc1e096fc5a8cd4519fa2926
 
 PODFILE CHECKSUM: ff14ea0f6caf634f0ad3bd9a9c224f5617a7ee0a
 

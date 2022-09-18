@@ -8,31 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		160B97A2C0ABC906FE5A8ACD03EE44A5 /* Pods-CoordinatorLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C72D33F87FAE365EBB9B111B690E5 /* Pods-CoordinatorLib_Tests-dummy.m */; };
-		2C650417DE8E3A3C3C14C013B95606F9 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0445F48B12A78DF8EDAD4BC03893A3E /* Coordinatable.swift */; };
-		715AFE36E89E3E3C10CED763C6DB4232 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F840BB3D056C50B6C069AF679E6C4AF /* Router.swift */; };
-		74EB9674468FE23398CCA439810E5A53 /* CoordinatorLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7316A53F24BAC35E5835C786E87BE /* CoordinatorLib-dummy.m */; };
+		2037B3C0FC0C3FDDFCC2A1C5C0B2D6B1 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3257BD1CE69EF8F8E5D5E762028B7AC /* Coordinatable.swift */; };
+		5595917BC9174C3318124D8EE4465C84 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F67E306F7FF4E4F11EF8071FC28F9B /* BaseCoordinator.swift */; };
+		57C09E53FAB0939CD6B7EF50939729A2 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9615F9A4C68B7EEF6AC2174498FAF7FE /* Helpers.swift */; };
 		784E0D50512E8CEA2ED6B8ACDDC4BC0E /* Pods-CoordinatorLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB96AD48CFBDC52A48CBF169C28940A /* Pods-CoordinatorLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A454EDD8D4ED9FF4E69515F180561FA /* CoordinatorLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581C0EF7BDF63ECEFA407B70744C13FA /* CoordinatorLib-dummy.m */; };
+		98F6019E1AF8A291B018D88226A8B3B7 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ECD9509F631244F4663D0FB38889A3 /* Routable.swift */; };
 		9A5F31DC9A0947C6644430C31B879A87 /* Pods-CoordinatorLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD67CA37119FB4786D07569BD92A44F8 /* Pods-CoordinatorLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B08B331042A5895F858E075214DFF13F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3583FFA4F5A4FBA644DB8912D648354 /* BaseCoordinator.swift */; };
+		9ED259364030481C3454884EB61DF37E /* CoordinatorLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD285F71416A8E19027E54BD1000DCA /* CoordinatorLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A02FDF7BAA1C9B999B024EE14CEB0A84 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7135604CAD59EF94D40443BFF1C206 /* SwiftyLib.swift */; };
+		A9E13773183FB54C44A66F7B7F661F87 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C576406580DF50EF4BB7B4CE4206272 /* Router.swift */; };
 		B4A4A5185F95EF8560A031F8670E08E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CD3EB0C5BE6B112251E8D66D598A4866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3615C115238A8F2363560936A5E177C /* CoordinatorLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9767BDC35D9FC88317CC840CC7F8B6F9 /* CoordinatorLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D55A353AFFAD30EAF53D61BF1C4B8ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E9FD8F804359E152F4BF49B33ABB4AD1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E6EC573AE0266E3D0C753323239C1 /* Helpers.swift */; };
+		E51BC7F80073314F6D2BD62EA27F9FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EED7A152EC4F1850F8C1D654D9C2A39F /* Pods-CoordinatorLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF4BEF8DF4671E51591CF5D486DD7B /* Pods-CoordinatorLib_Example-dummy.m */; };
-		F4B9DFBCE56BAEFA4EA1D5DE3BB01989 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73A615E2B415E620FFB4697CDCF8FB /* Presentable.swift */; };
-		F4D8F55EB691E9D8B26DDB5E76F36C69 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F0CA66934893336387307B03A152F /* Routable.swift */; };
+		F97D25B59C19C5FB50358EE202D9D36E /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C217A867C4476155A03F818EEA2E86 /* Presentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		298AF14474405241CBE6D1137FCF68D1 /* PBXContainerItemProxy */ = {
+		72466DB58CBAA01E7399525892E66A50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6FEDAC96886550B2D0DDBD5C79DFF6F2;
 			remoteInfo = "Pods-CoordinatorLib_Example";
 		};
-		9AC2689ADAFD7EE54633F479AA1460A9 /* PBXContainerItemProxy */ = {
+		9E9F9447056D46042D094A393C884B39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,43 +43,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16CC8FCBD1AF8591FB15D072996371FD /* CoordinatorLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLib-prefix.pch"; sourceTree = "<group>"; };
-		19B4E74A3893E9D688921590483BD49D /* CoordinatorLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoordinatorLib-Info.plist"; sourceTree = "<group>"; };
-		371AFF502211AF8539E35D1F61402D3F /* CoordinatorLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoordinatorLib.modulemap; sourceTree = "<group>"; };
-		3E73A615E2B415E620FFB4697CDCF8FB /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		1C7135604CAD59EF94D40443BFF1C206 /* SwiftyLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyLib.swift; path = CoordinatorLib/Classes/SwiftyLib.swift; sourceTree = "<group>"; };
+		29F67E306F7FF4E4F11EF8071FC28F9B /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		355DCE2ADD9D832DB06ECC3D5A2F9E5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		43B65DA8DF52543C341550F9B83B1F36 /* Pods-CoordinatorLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLib_Tests.modulemap"; sourceTree = "<group>"; };
+		4C576406580DF50EF4BB7B4CE4206272 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4EA5E1D81FF63F4B61A446996FB47CCF /* Pods-CoordinatorLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F840BB3D056C50B6C069AF679E6C4AF /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		5A4E6EC573AE0266E3D0C753323239C1 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		50852D4FD1A17D7F8560D04D05AF1120 /* CoordinatorLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoordinatorLib-Info.plist"; sourceTree = "<group>"; };
+		581C0EF7BDF63ECEFA407B70744C13FA /* CoordinatorLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoordinatorLib-dummy.m"; sourceTree = "<group>"; };
+		5D07E9C9BE04D3B2BD7A232C45757E3E /* CoordinatorLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLib-prefix.pch"; sourceTree = "<group>"; };
 		60678A7C3E0FA53196FB7B0FA081D4E7 /* Pods-CoordinatorLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoordinatorLib_Example"; path = Pods_CoordinatorLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64E7DE1368D04FD7C4FF05EA725A38D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		741F0CA66934893336387307B03A152F /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
-		7612515C7EEECF876AD9B42393E90CF4 /* CoordinatorLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLib.debug.xcconfig; sourceTree = "<group>"; };
-		84EDEC5183696B645F76D4B9B0CBF573 /* CoordinatorLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoordinatorLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84C217A867C4476155A03F818EEA2E86 /* Presentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 		85CBF9597BCCEB220749BC29E1512EA7 /* CoordinatorLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoordinatorLib; path = CoordinatorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881F826FD6EA92B364472B8846B21109 /* Pods-CoordinatorLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		8A9A3DD386133F29EE70BEC1A7B3241C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8C35179998F7684630F8C89DB24D2D29 /* Pods-CoordinatorLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		95BCBEFEA221A465434D30CCECFCB8A3 /* CoordinatorLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLib.release.xcconfig; sourceTree = "<group>"; };
 		95C6F9DC7B7638C9EC6DBC1F67D6C58A /* Pods-CoordinatorLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoordinatorLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9615F9A4C68B7EEF6AC2174498FAF7FE /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		96728BCECE9563C7CBD09F334BACFABD /* Pods-CoordinatorLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLib_Example.modulemap"; sourceTree = "<group>"; };
-		9767BDC35D9FC88317CC840CC7F8B6F9 /* CoordinatorLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLib-umbrella.h"; sourceTree = "<group>"; };
 		97705B608B7E0032D9AA6B6705479E84 /* Pods-CoordinatorLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoordinatorLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99C79A232B4FDB5D8EE74931C7C00B57 /* CoordinatorLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoordinatorLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB96AD48CFBDC52A48CBF169C28940A /* Pods-CoordinatorLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoordinatorLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CD285F71416A8E19027E54BD1000DCA /* CoordinatorLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLib-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4B0537BF2BDCD29271463305998C257 /* Pods-CoordinatorLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B65C72D33F87FAE365EBB9B111B690E5 /* Pods-CoordinatorLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoordinatorLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		B69C5FD7E2BE0B097961B4F891C25D3C /* Pods-CoordinatorLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA9D19047523EB06A8EB9AAAB79A1249 /* Pods-CoordinatorLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BE5EAC352751AC5A5828888690B0598B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C0445F48B12A78DF8EDAD4BC03893A3E /* Coordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
 		C274D09FF741D910D650D164DCA5FD90 /* Pods-CoordinatorLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D3583FFA4F5A4FBA644DB8912D648354 /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		D3257BD1CE69EF8F8E5D5E762028B7AC /* Coordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
 		D3C8B4E4E08156331AEA08A32AC17812 /* Pods-CoordinatorLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLib_Example-Info.plist"; sourceTree = "<group>"; };
+		D88162BFE0E0F453B46597A413D6E097 /* CoordinatorLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLib.debug.xcconfig; sourceTree = "<group>"; };
 		DD67CA37119FB4786D07569BD92A44F8 /* Pods-CoordinatorLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoordinatorLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		E6EF4BEF8DF4671E51591CF5D486DD7B /* Pods-CoordinatorLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoordinatorLib_Example-dummy.m"; sourceTree = "<group>"; };
-		EC9DF53A66197387903A51DA9A3FE208 /* CoordinatorLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLib.release.xcconfig; sourceTree = "<group>"; };
+		F0ECD9509F631244F4663D0FB38889A3 /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		F1ABFD3B4B928C50BD19A600B11AB27C /* Pods-CoordinatorLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoordinatorLib_Tests"; path = Pods_CoordinatorLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE7316A53F24BAC35E5835C786E87BE /* CoordinatorLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoordinatorLib-dummy.m"; sourceTree = "<group>"; };
+		F5D1D588E4015905D52F791AEC5C1F7F /* CoordinatorLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoordinatorLib.modulemap; sourceTree = "<group>"; };
 		FE3D623FCE8A4A98FE06A5016710D7AE /* Pods-CoordinatorLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,26 +101,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEABD195FBBCE3847C16BE2F34916208 /* Frameworks */ = {
+		6CAA7BDD03726AFC849B656E2203DDD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55A353AFFAD30EAF53D61BF1C4B8ECA /* Foundation.framework in Frameworks */,
+				E51BC7F80073314F6D2BD62EA27F9FDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BA74DB4896E97DD07F6A51FA927CE9A /* Coordinatable */ = {
-			isa = PBXGroup;
-			children = (
-				C0445F48B12A78DF8EDAD4BC03893A3E /* Coordinatable.swift */,
-			);
-			name = Coordinatable;
-			path = CoordinatorLib/Classes/Coordinatable;
-			sourceTree = "<group>";
-		};
 		2725165A1E522DC83DA563E47BE6747A /* Pods-CoordinatorLib_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,59 +128,43 @@
 			path = "Target Support Files/Pods-CoordinatorLib_Tests";
 			sourceTree = "<group>";
 		};
-		2F7F6A068FE076D5C381A038971F46B1 /* BaseCoordinator */ = {
+		2751A758F32E8D7706934D3E91EE4AAF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3583FFA4F5A4FBA644DB8912D648354 /* BaseCoordinator.swift */,
-			);
-			name = BaseCoordinator;
-			path = CoordinatorLib/Classes/BaseCoordinator;
-			sourceTree = "<group>";
-		};
-		424B5B03E41E196766854F09891C34D5 /* Routable */ = {
-			isa = PBXGroup;
-			children = (
-				741F0CA66934893336387307B03A152F /* Routable.swift */,
-				4F840BB3D056C50B6C069AF679E6C4AF /* Router.swift */,
-			);
-			name = Routable;
-			path = CoordinatorLib/Classes/Routable;
-			sourceTree = "<group>";
-		};
-		49A3E70D2ECB1476D94B69A86EFC6C52 /* CoordinatorLib */ = {
-			isa = PBXGroup;
-			children = (
-				2F7F6A068FE076D5C381A038971F46B1 /* BaseCoordinator */,
-				0BA74DB4896E97DD07F6A51FA927CE9A /* Coordinatable */,
-				91825B8222F9012AFDA27D6612910A7D /* Helpers */,
-				F5B12C00A1BA6CC2C90BE1DB223227DB /* Pod */,
-				5305F82539AAD57ED8F4E374120A3E53 /* Presentable */,
-				424B5B03E41E196766854F09891C34D5 /* Routable */,
-				4E05A759756704A209164D6033D75AD5 /* Support Files */,
-			);
-			name = CoordinatorLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4E05A759756704A209164D6033D75AD5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				371AFF502211AF8539E35D1F61402D3F /* CoordinatorLib.modulemap */,
-				FDE7316A53F24BAC35E5835C786E87BE /* CoordinatorLib-dummy.m */,
-				19B4E74A3893E9D688921590483BD49D /* CoordinatorLib-Info.plist */,
-				16CC8FCBD1AF8591FB15D072996371FD /* CoordinatorLib-prefix.pch */,
-				9767BDC35D9FC88317CC840CC7F8B6F9 /* CoordinatorLib-umbrella.h */,
-				7612515C7EEECF876AD9B42393E90CF4 /* CoordinatorLib.debug.xcconfig */,
-				EC9DF53A66197387903A51DA9A3FE208 /* CoordinatorLib.release.xcconfig */,
+				F5D1D588E4015905D52F791AEC5C1F7F /* CoordinatorLib.modulemap */,
+				581C0EF7BDF63ECEFA407B70744C13FA /* CoordinatorLib-dummy.m */,
+				50852D4FD1A17D7F8560D04D05AF1120 /* CoordinatorLib-Info.plist */,
+				5D07E9C9BE04D3B2BD7A232C45757E3E /* CoordinatorLib-prefix.pch */,
+				9CD285F71416A8E19027E54BD1000DCA /* CoordinatorLib-umbrella.h */,
+				D88162BFE0E0F453B46597A413D6E097 /* CoordinatorLib.debug.xcconfig */,
+				95BCBEFEA221A465434D30CCECFCB8A3 /* CoordinatorLib.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CoordinatorLib";
 			sourceTree = "<group>";
 		};
-		5305F82539AAD57ED8F4E374120A3E53 /* Presentable */ = {
+		3F627E5C05177FE011161A634928A126 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3E73A615E2B415E620FFB4697CDCF8FB /* Presentable.swift */,
+				99C79A232B4FDB5D8EE74931C7C00B57 /* CoordinatorLib.podspec */,
+				355DCE2ADD9D832DB06ECC3D5A2F9E5F /* LICENSE */,
+				8A9A3DD386133F29EE70BEC1A7B3241C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		505A967C843DBF39E4E7694BBF588823 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F39F13E01686EA0673B0CF4EDDEB6BA /* CoordinatorLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52EA79613929AE835CAEAA3BEFA955B0 /* Presentable */ = {
+			isa = PBXGroup;
+			children = (
+				84C217A867C4476155A03F818EEA2E86 /* Presentable.swift */,
 			);
 			name = Presentable;
 			path = CoordinatorLib/Classes/Presentable;
@@ -218,24 +195,50 @@
 			path = "Target Support Files/Pods-CoordinatorLib_Example";
 			sourceTree = "<group>";
 		};
-		91825B8222F9012AFDA27D6612910A7D /* Helpers */ = {
+		68A7119BF5FE0BEA0C7C43ED130E9382 /* Routable */ = {
 			isa = PBXGroup;
 			children = (
-				5A4E6EC573AE0266E3D0C753323239C1 /* Helpers.swift */,
+				F0ECD9509F631244F4663D0FB38889A3 /* Routable.swift */,
+				4C576406580DF50EF4BB7B4CE4206272 /* Router.swift */,
 			);
-			name = Helpers;
-			path = CoordinatorLib/Classes/Helpers;
+			name = Routable;
+			path = CoordinatorLib/Classes/Routable;
+			sourceTree = "<group>";
+		};
+		9F39F13E01686EA0673B0CF4EDDEB6BA /* CoordinatorLib */ = {
+			isa = PBXGroup;
+			children = (
+				1C7135604CAD59EF94D40443BFF1C206 /* SwiftyLib.swift */,
+				F273FA490A37E6286884F8F5D7919600 /* BaseCoordinator */,
+				D1344AB7B4D4F6B2BCA0F3F1E561C5DC /* Coordinatable */,
+				D9A9D807A4751D6F6D09DE30E88DBDEE /* Helpers */,
+				52EA79613929AE835CAEAA3BEFA955B0 /* Presentable */,
+				68A7119BF5FE0BEA0C7C43ED130E9382 /* Routable */,
+				3F627E5C05177FE011161A634928A126 /* Pod */,
+				2751A758F32E8D7706934D3E91EE4AAF /* Support Files */,
+			);
+			name = CoordinatorLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DE9089A77E478F9B8906C0F102032233 /* Development Pods */,
+				505A967C843DBF39E4E7694BBF588823 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DCCA8E4C49CA0AEEDC39D9EDB085ED6A /* Products */,
 				EE00F93C7F997C17AB1B7DFD97461688 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1344AB7B4D4F6B2BCA0F3F1E561C5DC /* Coordinatable */ = {
+			isa = PBXGroup;
+			children = (
+				D3257BD1CE69EF8F8E5D5E762028B7AC /* Coordinatable.swift */,
+			);
+			name = Coordinatable;
+			path = CoordinatorLib/Classes/Coordinatable;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -244,6 +247,15 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A9D807A4751D6F6D09DE30E88DBDEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9615F9A4C68B7EEF6AC2174498FAF7FE /* Helpers.swift */,
+			);
+			name = Helpers;
+			path = CoordinatorLib/Classes/Helpers;
 			sourceTree = "<group>";
 		};
 		DCCA8E4C49CA0AEEDC39D9EDB085ED6A /* Products */ = {
@@ -256,14 +268,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE9089A77E478F9B8906C0F102032233 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49A3E70D2ECB1476D94B69A86EFC6C52 /* CoordinatorLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		EE00F93C7F997C17AB1B7DFD97461688 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,14 +277,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F5B12C00A1BA6CC2C90BE1DB223227DB /* Pod */ = {
+		F273FA490A37E6286884F8F5D7919600 /* BaseCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				84EDEC5183696B645F76D4B9B0CBF573 /* CoordinatorLib.podspec */,
-				BE5EAC352751AC5A5828888690B0598B /* LICENSE */,
-				64E7DE1368D04FD7C4FF05EA725A38D8 /* README.md */,
+				29F67E306F7FF4E4F11EF8071FC28F9B /* BaseCoordinator.swift */,
 			);
-			name = Pod;
+			name = BaseCoordinator;
+			path = CoordinatorLib/Classes/BaseCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,11 +297,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86DE1EF521F77D21E7D7CDD460D9351E /* Headers */ = {
+		2139CE4A6B4E648E1E110876A1A2A5C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3615C115238A8F2363560936A5E177C /* CoordinatorLib-umbrella.h in Headers */,
+				9ED259364030481C3454884EB61DF37E /* CoordinatorLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +328,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				87C0CCD82D9DEDA138C4ED06A73E2308 /* PBXTargetDependency */,
+				6EF38347477B6C580E5B68BDAC7AD353 /* PBXTargetDependency */,
 			);
 			name = "Pods-CoordinatorLib_Example";
 			productName = Pods_CoordinatorLib_Example;
@@ -344,7 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E3E7DD3141A4E0A5AA94E1023C751397 /* PBXTargetDependency */,
+				21992234A88676740495ACFBFD357471 /* PBXTargetDependency */,
 			);
 			name = "Pods-CoordinatorLib_Tests";
 			productName = Pods_CoordinatorLib_Tests;
@@ -353,12 +356,12 @@
 		};
 		AF7FE38E41B686876D2203C32C45D122 /* CoordinatorLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F11114D53BAECEFA61FF5DF0F19E37C /* Build configuration list for PBXNativeTarget "CoordinatorLib" */;
+			buildConfigurationList = 2A1B1B1EFB3D4AC0D0536B5B568AEEF5 /* Build configuration list for PBXNativeTarget "CoordinatorLib" */;
 			buildPhases = (
-				86DE1EF521F77D21E7D7CDD460D9351E /* Headers */,
-				4F4E2ABF8E6B3959E574A6AACC0A4383 /* Sources */,
-				CEABD195FBBCE3847C16BE2F34916208 /* Frameworks */,
-				92F8399F46BEA3910991F53FE9CE7435 /* Resources */,
+				2139CE4A6B4E648E1E110876A1A2A5C8 /* Headers */,
+				BF51B93C06EDC631BE7B34F254C9E7D5 /* Sources */,
+				6CAA7BDD03726AFC849B656E2203DDD7 /* Frameworks */,
+				BB0888DCAEAC78D2DD65C71AFCC67292 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -406,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92F8399F46BEA3910991F53FE9CE7435 /* Resources */ = {
+		BB0888DCAEAC78D2DD65C71AFCC67292 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,25 +426,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F4E2ABF8E6B3959E574A6AACC0A4383 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B08B331042A5895F858E075214DFF13F /* BaseCoordinator.swift in Sources */,
-				2C650417DE8E3A3C3C14C013B95606F9 /* Coordinatable.swift in Sources */,
-				74EB9674468FE23398CCA439810E5A53 /* CoordinatorLib-dummy.m in Sources */,
-				E9FD8F804359E152F4BF49B33ABB4AD1 /* Helpers.swift in Sources */,
-				F4B9DFBCE56BAEFA4EA1D5DE3BB01989 /* Presentable.swift in Sources */,
-				F4D8F55EB691E9D8B26DDB5E76F36C69 /* Routable.swift in Sources */,
-				715AFE36E89E3E3C10CED763C6DB4232 /* Router.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		954B42F2CDF48D4CA983F249750D1EB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EED7A152EC4F1850F8C1D654D9C2A39F /* Pods-CoordinatorLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF51B93C06EDC631BE7B34F254C9E7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5595917BC9174C3318124D8EE4465C84 /* BaseCoordinator.swift in Sources */,
+				2037B3C0FC0C3FDDFCC2A1C5C0B2D6B1 /* Coordinatable.swift in Sources */,
+				7A454EDD8D4ED9FF4E69515F180561FA /* CoordinatorLib-dummy.m in Sources */,
+				57C09E53FAB0939CD6B7EF50939729A2 /* Helpers.swift in Sources */,
+				F97D25B59C19C5FB50358EE202D9D36E /* Presentable.swift in Sources */,
+				98F6019E1AF8A291B018D88226A8B3B7 /* Routable.swift in Sources */,
+				A9E13773183FB54C44A66F7B7F661F87 /* Router.swift in Sources */,
+				A02FDF7BAA1C9B999B024EE14CEB0A84 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,24 +460,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87C0CCD82D9DEDA138C4ED06A73E2308 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CoordinatorLib;
-			target = AF7FE38E41B686876D2203C32C45D122 /* CoordinatorLib */;
-			targetProxy = 9AC2689ADAFD7EE54633F479AA1460A9 /* PBXContainerItemProxy */;
-		};
-		E3E7DD3141A4E0A5AA94E1023C751397 /* PBXTargetDependency */ = {
+		21992234A88676740495ACFBFD357471 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CoordinatorLib_Example";
 			target = 6FEDAC96886550B2D0DDBD5C79DFF6F2 /* Pods-CoordinatorLib_Example */;
-			targetProxy = 298AF14474405241CBE6D1137FCF68D1 /* PBXContainerItemProxy */;
+			targetProxy = 72466DB58CBAA01E7399525892E66A50 /* PBXContainerItemProxy */;
+		};
+		6EF38347477B6C580E5B68BDAC7AD353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoordinatorLib;
+			target = AF7FE38E41B686876D2203C32C45D122 /* CoordinatorLib */;
+			targetProxy = 9E9F9447056D46042D094A393C884B39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		092A360B2E20985669C07609CC210096 /* Release */ = {
+		1CAB791C095ED836703719469811B5CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC9DF53A66197387903A51DA9A3FE208 /* CoordinatorLib.release.xcconfig */;
+			baseConfigurationReference = 95BCBEFEA221A465434D30CCECFCB8A3 /* CoordinatorLib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,37 +540,6 @@
 			};
 			name = Debug;
 		};
-		45FB4406CBBFA156EBE26AB9F1BE3517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7612515C7EEECF876AD9B42393E90CF4 /* CoordinatorLib.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoordinatorLib/CoordinatorLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoordinatorLib/CoordinatorLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoordinatorLib/CoordinatorLib.modulemap";
-				PRODUCT_MODULE_NAME = CoordinatorLib;
-				PRODUCT_NAME = CoordinatorLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		58E657E09AB318D798D8B2D80F034CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4B0537BF2BDCD29271463305998C257 /* Pods-CoordinatorLib_Example.release.xcconfig */;
@@ -600,6 +573,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6E911DBED58B3EE7592B621DB9EB4D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88162BFE0E0F453B46597A413D6E097 /* CoordinatorLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoordinatorLib/CoordinatorLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoordinatorLib/CoordinatorLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoordinatorLib/CoordinatorLib.modulemap";
+				PRODUCT_MODULE_NAME = CoordinatorLib;
+				PRODUCT_NAME = CoordinatorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -656,8 +660,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -799,6 +802,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A1B1B1EFB3D4AC0D0536B5B568AEEF5 /* Build configuration list for PBXNativeTarget "CoordinatorLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E911DBED58B3EE7592B621DB9EB4D75 /* Debug */,
+				1CAB791C095ED836703719469811B5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		315498D1537609AAE9F37CF1CF2282A5 /* Build configuration list for PBXNativeTarget "Pods-CoordinatorLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -813,15 +825,6 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F11114D53BAECEFA61FF5DF0F19E37C /* Build configuration list for PBXNativeTarget "CoordinatorLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45FB4406CBBFA156EBE26AB9F1BE3517 /* Debug */,
-				092A360B2E20985669C07609CC210096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

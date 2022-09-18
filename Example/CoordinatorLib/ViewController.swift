@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let _ = BaseCoordinator()
+        let _ = SwiftyLib()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

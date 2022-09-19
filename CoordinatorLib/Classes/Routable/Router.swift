@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class Router: NSObject {
+open class Router: Routable {
     
     // MARK:- Private variables
     fileprivate weak var rootController: UINavigationController?
